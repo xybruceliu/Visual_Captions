@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Visual Captions Project Page">
+  <meta property="og:title" content="Visual Captions"/>
+  <meta property="og:description" content="Visual Captions: Augmenting Verbal Communication with On-the-fly Visuals"/>
+  <meta property="og:url" content="https://liubruce.me/visual_captions"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="augmented communication, large language models, video-mediated communication, online meeting, collaborative work, dataset, textto-visual, AI agent, augmented reality">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Visual Captions</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Visual Captions: Augmenting Verbal Communication with On-the-fly Visuals</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://liubruce.me/" target="_blank">Xingyu Bruce Liu</a><sup>1</sup>,
+              </span>
+              
+              <span class="author-block">
+                Vladimir Kirilyuk<sup>2</sup>,
+              </span>
+                
+              <span class="author-block">
+                <a href="https://xiuxiuyuan.com/" target="_blank">Xiuxiu Yuan</a><sup>2</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="https://www.olwal.com/" target="_blank">Alex Olwal</a><sup>2</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="http://www.peggychi.me/" target="_blank">Peggy Chi</a><sup>2</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="https://hci.prof/" target="_blank">Xiang 'Anthony' Chen</a><sup>1</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="https://duruofei.com/" target="_blank">Ruofei Du</a><sup>2</sup>
+              </span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">UCLA<sup>1</sup>, Google Research<sup>2</sup>
+                      <br>ACM CHI 2023</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://dl.acm.org/doi/10.1145/3544548.3581566" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/google/archat" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- YouTube Video -->
+                <span class="link-block">
+                  <a href="https://youtu.be/rokIjp--qcg" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+
+                <!-- Blog Post -->
+                <span class="link-block">
+                  <a href="https://research.google/blog/visual-captions-using-large-language-models-to-augment-video-conferences-with-dynamic-visuals/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-google"></i>
+                    </span>
+                    <span>Blog</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser figure-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="static/images/teaser.gif" alt="Teaser figure of CrossA11y"/>
+      <h2 class="subtitle has-text-justified">
+        Visual Captions is a real-time system that suggests relevant visuals in conversations. We contribute (A) VC1.5K, a crowdsourced dataset that contains 1595 quadruples of language, visual content, type, and source; (B) a visual prediction model fine-tuned on GPT-3 to suggest relevant visuals, and (C) Visual Captions interface that allows users to share visuals on-the-fy in video conferences.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video conferencing solutions like Zoom, Google Meet, and Microsoft Teams are becoming increasingly popular for facilitating conversations, and recent advancements such as live captioning help people better understand each other. We believe that the addition of visuals based on the context of conversations could further improve comprehension of complex or unfamiliar concepts. To explore the potential of such capabilities, we conducted a formative study through remote interviews (N=10) and crowdsourced a dataset of over 1500 sentence-visual pairs across a wide range of contexts. These insights informed Visual Captions, a real-time system that integrates with a video conferencing platform to enrich verbal communication. Visual Captions leverages a fine-tuned large language model to proactively suggest relevant visuals in open-vocabulary conversations. We present findings from a lab study (N=26) and an in-the-wild case study (N=10), demonstrating how Visual Captions can help improve communication through visual augmentation in various scenarios.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/rokIjp--qcg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{10.1145/3544548.3581566,
+author = {Liu, Xingyu Bruce and Kirilyuk, Vladimir and Yuan, Xiuxiu and Olwal, Alex and Chi, Peggy and Chen, Xiang 'Anthony' and Du, Ruofei},
+title = {Visual Captions: Augmenting Verbal Communication with On-the-fly Visuals},
+year = {2023},
+isbn = {9781450394215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544548.3581566},
+doi = {10.1145/3544548.3581566},
+booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+articleno = {108},
+numpages = {20},
+keywords = {AI agent, augmented communication, augmented reality, collaborative work, dataset, large language models, online meeting, text-to-visual, video-mediated communication},
+location = {<city>Hamburg</city>, <country>Germany</country>},
+series = {CHI '23}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            © Copyright Xingyu Bruce Liu. Built with the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
